@@ -1,5 +1,6 @@
 
 // Add the active classname to the image when scrolled to it
+const images = document.querySelectorAll('.slide-in');
 function slideIn() {
     images.forEach(image => {
         // Get the distance of the image from the top of the viewport
